@@ -1,0 +1,3 @@
+a=int(input())
+b=int(input())
+print("The number of friends in each team is",int(a/b),"and left out is",a%b)
