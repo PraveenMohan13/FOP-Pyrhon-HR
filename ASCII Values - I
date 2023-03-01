@@ -1,0 +1,5 @@
+a=input()
+print(ord(a))
+
+
+#Python ord() function takes string argument of a single Unicode character and return its integer Unicode code point value.
