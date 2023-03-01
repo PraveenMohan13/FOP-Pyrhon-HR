@@ -1,0 +1,14 @@
+import math
+name=input()
+age=int(input())
+CGPA=float(input())
+grade=input()
+ans=math.floor(CGPA*100)/100
+print("Name:",name)
+print("Age:",age)
+print("CGPA: %.2f"%ans)
+print("Grade:",grade)
+#in this print line we dont use space because , give one space if we give + it will not give space
+#print("Name:",name)->Name: Rajeev
+#print("Name:"+name)->Name:Rajeev
+#+ will only work for string con
