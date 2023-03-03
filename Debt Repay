@@ -1,0 +1,12 @@
+p=float(input())
+n=float(input())
+r=float(input())
+si=(p*n*r)/100
+amt=p+si
+dis=(si*2)/100
+famt=(amt-dis)
+print("{:.2f}".format(si))
+print('%.2f' % amt)
+#print(round(dis,2))
+print("%.2f" % dis)
+print("%.2f" % famt)
