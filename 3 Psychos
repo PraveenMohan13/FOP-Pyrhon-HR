@@ -1,0 +1,8 @@
+x1=int(input())
+y1=int(input())
+x2=int(input())
+y2=int(input())
+ans=(x1+x2)/2
+ans1=(y1+y2)/2
+print("Arun's house is located at(%.1f"%ans,end="")
+print(",%.1f)"%ans1)
