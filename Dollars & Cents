@@ -1,0 +1,9 @@
+d1=int(input())
+c1=int(input())
+d2=int(input())
+c2=int(input())
+c=c1+c2
+d=d1+d2+c/100
+c=c%100
+print(int(d))
+print(c)
