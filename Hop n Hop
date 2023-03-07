@@ -1,0 +1,5 @@
+import math
+a=int(input())
+b=int(input())
+ans=int(math.sqrt(pow(a-3,2)+(pow(b-4,2))))
+print(ans)
