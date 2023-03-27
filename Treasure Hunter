@@ -1,0 +1,10 @@
+g=int(input())
+ben=int(input())
+bb=int(input())
+bs=int(g*ben/100);
+g=g-bs;
+bbs=int(g*bb/100);
+g=g-bbs;
+print(bs)
+print(bbs)
+print(int(g/3))
