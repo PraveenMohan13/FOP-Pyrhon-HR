@@ -1,0 +1,40 @@
+a=input()
+#if(a.isalpha()):
+if((a>='a' and a<='z') or (a>='A' and a<='Z')):
+    if(a=='a' or a=='e' or a=='i' or a=='o' or a=='u'):
+        print("Vowel")
+    else:
+        print("Consonant")
+else:
+    print("Not an alphabet")
+------------------------------------------------------------------------------------------------------------------------------------------
+def isVowel(ch):
+    switcher = {
+        'a': "Vowel",
+        'e': "Vowel",
+        'i': "Vowel",
+        'o': "Vowel",
+        'u': "Vowel",
+        'A': "Vowel",
+        'E': "Vowel",
+        'I': "Vowel",
+        'O': "Vowel",
+        'U': "Vowel"
+    }
+    return switcher.get(ch, "Consonant")
+
+a=input()
+if(a.isalpha()):
+    print(isVowel(a))
+else:
+    print("Not an alphabet")
+------------------------------------------------------------------------------------
+a=input()
+vow = "aeiouAEIOU"
+if(a.isalpha()):
+    if((vow.find(a) != -1)): #if input is in vow return 0 else -1
+        print("Vowel")
+    else:
+        print("Consonant")
+else:
+    print("Not an alphabet")
