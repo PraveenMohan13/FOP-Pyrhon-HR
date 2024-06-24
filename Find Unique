@@ -1,0 +1,33 @@
+You are given with the array, and in the array only one unique element is present. Just return that unique element from the array.
+Input Format
+
+First line having size of array
+Second line having the elements of array
+Constraints
+
+1 <= t <= 10^2
+0 <= N <= 10^3
+Time Limit: 1 sec
+Output Format
+
+Output for every test case will be printed in a separate line.
+Sample Input 0
+
+7
+2 3 1 6 3 6 2
+Sample Output 0
+
+1
+Sample Input 1
+
+5
+2 4 7 2 7
+Sample Output 1
+
+4
+============================================================================================
+import collections
+n=int(input())
+l=list(map(int,input().split()))
+print (*[x for x,count in collections.Counter(l).items() if count==1])
+#print(*a)
