@@ -1,0 +1,18 @@
+Replace all Occurrences of ‘a’ with $ in a String
+ESome people are playing cricket match. One is wound, so he was taken to hospital. And there is no person to play the match. So one person is to replace instead of him. Help them to replace the person to win the match.(replace all occurrences of ‘a’ with ‘$’ in a string.) Problem Description The program takes a string and replaces all occurrences of ‘a’ with ‘$’. Problem Solution 1. Take a string and store it in a variable. 2. Using the replace function, replace all occurrences of ‘a’ and ‘A’ with ‘$’ and store it back in the variable. 3. Print the modified string. 4. Exit.
+
+
+Sample Input:
+
+Apple
+
+
+
+Output:
+
+$pple
+=========================================================================================================
+s=input()
+s=s.replace("a","$")
+s=s.replace("A","$")
+print(s)
